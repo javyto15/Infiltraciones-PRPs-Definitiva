@@ -35,7 +35,7 @@
             --whatsapp-green: #25d366;     /* Verde Oficial WhatsApp */
             --whatsapp-dark: #128c7e;      /* Verde WhatsApp Hover */
             --text-main: #2b2d42;          /* Texto principal legible */
-            --text-muted: #5c677d;         /* Texto secundario */
+            --text-muted: #5c677d;          /* Texto secundario */
             --bg-light: #f8fafc;           /* Fondo gris/azul ultra suave */
             --bg-card: #ffffff;            /* Fondo tarjetas */
             --border-color: #e2e8f0;       /* Bordes sutiles */
@@ -347,7 +347,7 @@
         }
 
         /* ==========================================================================
-           5. CENTROS MÉDICOS, UBICACIONES Y PRECIOS (AHORA PRIMERA SECCIÓN)
+           5. CENTROS MÉDICOS, UBICACIONES Y PRECIOS
            ========================================================================== */
         .locations-section {
             background-color: #ffffff;
@@ -497,7 +497,7 @@
         }
 
         /* ==========================================================================
-           7. SITIOS MÁS FRECUENTES DE INFILTRACIÓN (ILUSTRACIONES 3D)
+           7. SITIOS MÁS FRECUENTES DE INFILTRACIÓN
            ========================================================================== */
         .joint-grid {
             display: grid;
@@ -616,7 +616,7 @@
         }
 
         /* ==========================================================================
-           9. PROCESO PASO A PASO & AINEs (PAUTAS POST-TRATAMIENTO)
+           9. PROCESO PASO A PASO & AINEs
            ========================================================================== */
         .process-section {
             background: linear-gradient(180deg, #ffffff 0%, var(--bg-light) 100%);
@@ -723,85 +723,7 @@
         }
 
         /* ==========================================================================
-           11. RESEÑAS / REVIEWS DE PACIENTES (INGLÉS, SIN FOTOS)
-           ========================================================================== */
-        .reviews-section {
-            background-color: var(--bg-light);
-        }
-
-        .reviews-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 28px;
-            margin-bottom: 40px;
-        }
-
-        .review-card {
-            background: #ffffff;
-            padding: 28px;
-            border-radius: var(--radius-md);
-            box-shadow: var(--shadow-sm);
-            border: 1px solid var(--border-color);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-
-        .stars {
-            color: #ffc107;
-            font-size: 1.1rem;
-            margin-bottom: 12px;
-        }
-
-        .review-text {
-            font-size: 0.95rem;
-            color: var(--text-main);
-            font-style: italic;
-            margin-bottom: 20px;
-        }
-
-        .reviewer-info {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-
-        .reviewer-avatar {
-            width: 44px;
-            height: 44px;
-            border-radius: 50%;
-            background-color: var(--primary-color);
-            color: #ffffff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 700;
-            font-size: 1rem;
-        }
-
-        .reviewer-details strong {
-            display: block;
-            font-size: 0.95rem;
-            color: var(--primary-color);
-        }
-
-        .reviewer-details span {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-        }
-
-        .leave-review-container {
-            text-align: center;
-            background: #ffffff;
-            padding: 32px;
-            border-radius: var(--radius-md);
-            border: 2px dashed var(--accent-color);
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        /* ==========================================================================
-           12. BANNER INFERIOR Y BOTONES FLOTANTES DE WHATSAPP
+           11. BANNER INFERIOR Y BOTONES FLOTANTES DE WHATSAPP
            ========================================================================== */
         .cta-banner {
             background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
@@ -863,7 +785,7 @@
         }
 
         /* ==========================================================================
-           13. FOOTER
+           12. FOOTER
            ========================================================================== */
         footer {
             background-color: #071e2e;
@@ -897,7 +819,7 @@
         }
 
         /* ==========================================================================
-           14. RESPONSIVE DESIGN (DISEÑO ADAPTATIVO)
+           13. RESPONSIVE DESIGN (DISEÑO ADAPTATIVO)
            ========================================================================== */
         @media (max-width: 992px) {
             .hero-grid {
@@ -962,7 +884,6 @@
                 <a href="#zonas" class="nav-link">Zonas de Infiltración</a>
                 <a href="#casos" class="nav-link">Casos Clínicos</a>
                 <a href="#faq" class="nav-link">Preguntas Frecuentes</a>
-                <a href="#reviews" class="nav-link">Reseñas</a>
             </nav>
             <a href="https://wa.me/34611128321?text=Hola%20Dr.%20Hern%C3%A1ndez%20Quinto,%20deseo%20solicitar%20cita%20previa" target="_blank" class="btn btn-whatsapp" style="padding: 10px 20px; font-size: 0.9rem;">
                 <i class="fa-brands fa-whatsapp" style="font-size: 1.2rem;"></i> Pedir Cita
@@ -977,7 +898,6 @@
                 <div class="tag-badge">
                     <i class="fa-solid fa-shield-halved"></i> Medicina Regenerativa y Traumatología
                 </div>
-                <!-- Encabezado optimizado para la mejora del dolor -->
                 <h1 class="hero-title">Recupera tu movilidad y <span>mejora del dolor articular</span> mediante infiltraciones con PRP</h1>
                 <p class="hero-subtitle">Especialista en traumatología deportiva, tratamiento biológico con Plasma Rico en Plaquetas (PRP), terapias de medicina regenerativa y manejo avanzado del dolor articular y artrosis en Murcia, Torrevieja y Pilar de la Horadada.</p>
                 
@@ -1003,7 +923,6 @@
 
             <div class="hero-image-wrapper">
                 <div class="hero-image-container">
-                    <!-- Foto subida a github con título "doctor-javier.jpg" -->
                     <img src="doctor-javier.jpg" alt="Dr. Javier Hernández Quinto - Traumatólogo Especialista en Medicina Regenerativa">
                 </div>
                 <div class="hero-badge-floating">
@@ -1012,209 +931,199 @@
                     </div>
                     <div>
                         <strong style="display:block; color: var(--primary-color);">Dr. Hernández Quinto</strong>
-                        <span style="font-size: 0.85rem; color: var(--text-muted);">Traumatología & Medicina Regenerativa</span>
+                        <span style="font-size: 0.85rem; color: var(--text-muted);">Especialista en Traumatología</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 1. CENTROS MÉDICOS, HOSPITALE Y PRECIOS (AHORA AL PRINCIPIO) -->
-    <section id="centros" class="section-padding locations-section">
+    <!-- CENTROS MÉDICOS Y UBICACIONES -->
+    <section id="centros" class="locations-section section-padding">
         <div class="container">
             <div class="text-center">
-                <span class="tag-badge">Atención Presencial</span>
+                <div class="tag-badge">Consulta Presencial</div>
                 <h2 class="section-title">Centros Médicos y Tarifas</h2>
-                <p class="section-subtitle">Consultas y procedimientos en instalaciones hospitalarias autorizadas en Murcia, Pilar de la Horadada y Torrevieja.</p>
+                <p class="section-subtitle">Ofrecemos un servicio de alta calidad médica con precios transparentes en nuestras clínicas de Murcia y la Vega Baja.</p>
             </div>
 
             <div class="location-grid">
                 <!-- Murcia -->
                 <div class="location-card featured">
                     <div>
-                        <div class="city-tag"><i class="fa-solid fa-location-dot"></i> Murcia</div>
-                        <h3>Hospital Mesa del Castillo</h3>
+                        <div class="city-tag">Murcia Capital</div>
+                        <h3>Clínica Traumatológica Murcia</h3>
                         <div class="hospital-name">
-                            <i class="fa-solid fa-hospital"></i> C. Ronda Sur, 20, Murcia
+                            <i class="fa-solid fa-hospital"></i> Centro Especializado de Traumatología
                         </div>
-                        <p style="font-size:0.9rem; color: var(--text-muted);">Quirófanos y consultas externas de alta tecnología traumatológica.</p>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">Atención personalizada con equipamiento ecográfico de última generación para tratamiento de lesiones articulares y musculares.</p>
                     </div>
-                    <div>
-                        <div class="price-box">
-                            <div class="price-amount">350€</div>
-                            <div class="price-detail">por sesión de infiltración PRP</div>
-                        </div>
-                        <a href="https://wa.me/34611128321?text=Hola%20Dr.%20Hern%C3%A1ndez%20Quinto,%20deseo%20cita%20en%20Hospital%20Mesa%20del%20Castillo%20(Murcia)" target="_blank" class="btn btn-whatsapp" style="width: 100%;">
-                            <i class="fa-brands fa-whatsapp"></i> Cita en Murcia
-                        </a>
-                    </div>
-                </div>
 
-                <!-- Pilar de la Horadada -->
-                <div class="location-card">
-                    <div>
-                        <div class="city-tag"><i class="fa-solid fa-location-dot"></i> Pilar de la Horadada</div>
-                        <h3>Clínica Virgen del Pilar</h3>
-                        <div class="hospital-name">
-                            <i class="fa-solid fa-hospital"></i> Pilar de la Horadada (Alicante)
-                        </div>
-                        <p style="font-size:0.9rem; color: var(--text-muted);">Atención médica y regenerativa personalizada en la Vega Baja.</p>
+                    <div class="price-box">
+                        <div class="price-amount">180€</div>
+                        <div class="price-detail">por sesión de infiltración con PRP</div>
                     </div>
-                    <div>
-                        <div class="price-box">
-                            <div class="price-amount">250€</div>
-                            <div class="price-detail">por sesión de infiltración PRP</div>
-                        </div>
-                        <a href="https://wa.me/34611128321?text=Hola%20Dr.%20Hern%C3%A1ndez%20Quinto,%20deseo%20cita%20en%20Cl%C3%ADnica%20Virgen%20del%20Pilar" target="_blank" class="btn btn-whatsapp" style="width: 100%;">
-                            <i class="fa-brands fa-whatsapp"></i> Cita en Pilar Horadada
-                        </a>
-                    </div>
+
+                    <a href="https://wa.me/34611128321?text=Hola%20Dr.%20Hern%C3%A1ndez%20Quinto,%20deseo%20pedir%20cita%20en%20Murcia" target="_blank" class="btn btn-primary" style="width: 100%;">
+                        Reservar en Murcia
+                    </a>
                 </div>
 
                 <!-- Torrevieja -->
                 <div class="location-card">
                     <div>
-                        <div class="city-tag"><i class="fa-solid fa-location-dot"></i> Torrevieja</div>
-                        <h3>Centro Médico Parque de las Naciones</h3>
+                        <div class="city-tag">Torrevieja</div>
+                        <h3>Hospital Quirónsalud Torrevieja</h3>
                         <div class="hospital-name">
-                            <i class="fa-solid fa-hospital"></i> Torrevieja (Alicante)
+                            <i class="fa-solid fa-hospital"></i> Servicio de Traumatología
                         </div>
-                        <p style="font-size:0.9rem; color: var(--text-muted);">Ubicación accesible para el tratamiento integral de artrosis y lesiones.</p>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">Instalaciones hospitalarias de primer nivel con laboratorio propio para procesado óptimo del plasma.</p>
                     </div>
+
+                    <div class="price-box">
+                        <div class="price-amount">200€</div>
+                        <div class="price-detail">por sesión de infiltración con PRP</div>
+                    </div>
+
+                    <a href="https://wa.me/34611128321?text=Hola%20Dr.%20Hern%C3%A1ndez%20Quinto,%20deseo%20pedir%20cita%20en%20Torrevieja" target="_blank" class="btn btn-outline" style="width: 100%;">
+                        Reservar en Torrevieja
+                    </a>
+                </div>
+
+                <!-- Pilar de la Horadada -->
+                <div class="location-card">
                     <div>
-                        <div class="price-box">
-                            <div class="price-amount">250€</div>
-                            <div class="price-detail">por sesión de infiltración PRP</div>
+                        <div class="city-tag">Pilar de la Horadada</div>
+                        <h3>Clínica Médica Horadada</h3>
+                        <div class="hospital-name">
+                            <i class="fa-solid fa-hospital"></i> Consultas Externas
                         </div>
-                        <a href="https://wa.me/34611128321?text=Hola%20Dr.%20Hern%C3%A1ndez%20Quinto,%20deseo%20cita%20en%20Torrevieja" target="_blank" class="btn btn-whatsapp" style="width: 100%;">
-                            <i class="fa-brands fa-whatsapp"></i> Cita en Torrevieja
-                        </a>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">Atención ágil sin esperas para el tratamiento de patología tendinosa y dolor articular crónico.</p>
                     </div>
+
+                    <div class="price-box">
+                        <div class="price-amount">180€</div>
+                        <div class="price-detail">por sesión de infiltración con PRP</div>
+                    </div>
+
+                    <a href="https://wa.me/34611128321?text=Hola%20Dr.%20Hern%C3%A1ndez%20Quinto,%20deseo%20pedir%20cita%20en%20Pilar%20de%20la%20Horadada" target="_blank" class="btn btn-outline" style="width: 100%;">
+                        Reservar en Pilar de la Horadada
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 2. TRATAMIENTO PRP Y FOTO TUBO DE PRP CENTRIFUGADO -->
-    <section id="tratamiento" class="section-padding prp-info">
+    <!-- TRATAMIENTO PRP Y BACTERIOLOGÍA -->
+    <section id="tratamiento" class="prp-info section-padding">
         <div class="container">
-            <div class="text-center">
-                <span class="tag-badge">Biotecnología Autóloga</span>
-                <h2 class="section-title">¿Qué es el Plasma Rico en Plaquetas (PRP)?</h2>
-                <p class="section-subtitle">Una de las técnicas más avanzadas de la medicina regenerativa actual para reparar tejidos sin intervención quirúrgica.</p>
-            </div>
-
             <div class="prp-flex-layout">
                 <div class="prp-flex-text">
-                    <h3 style="font-size: 1.6rem; margin-bottom: 16px;">Concentración de Factores de Crecimiento</h3>
-                    <p style="margin-bottom: 16px;">El <strong>PRP (Plasma Rico en Plaquetas)</strong> es un preparado biológico autólogo que se obtiene de la propia sangre del paciente mediante una extracción convencional. Tras someterse a un protocolo de centrifugado estéril de alta precisión, aislamos la fracción plasmática con mayor concentración de plaquetas.</p>
-                    <p>Estas plaquetas liberan <strong>factores de crecimiento proteicos</strong> que desencadenan de forma natural los mecanismos biológicos de reparación celular, disminuyendo el estado inflamatorio crónico y regenerando el cartílago, tendones, ligamentos y tejido muscular.</p>
+                    <div class="tag-badge">¿Cómo funciona el PRP?</div>
+                    <h2 class="section-title">Plasma Rico en Plaquetas (PRP) y Células Madre</h2>
+                    <p style="margin-bottom: 20px; color: var(--text-muted);">El Plasma Rico en Plaquetas es una terapia biológica y autóloga (obtenida de la propia sangre del paciente) que concentra los factores de crecimiento encargados de acelerar la reparación y regeneración de los tejidos dañados.</p>
+                    <p style="margin-bottom: 20px; color: var(--text-muted);">Mediante un centrifugado controlado, aislamos la fracción plasmática con mayor densidad de plaquetas e hiperconcentramos los factores biológicos reparadores que, al infiltrarse bajo control ecográfico, estimulan la curación natural del cartílago, tendón o ligamento.</p>
                 </div>
                 <div class="prp-flex-image">
-                    <!-- Foto limpia en primer plano de tubo de PRP centrifugado (vial dorado) -->
-                    <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=800&q=80" alt="Tubo de ensayo con plasma rico en plaquetas centrifugado de color amarillo dorado">
+                    <!-- Imagen 2: Muestra médica biológica clara y profesional -->
+                    <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=800&q=80" alt="Muestra de tubo con Plasma Rico en Plaquetas y preparación médica">
                 </div>
             </div>
 
             <div class="benefits-grid">
                 <div class="benefit-item">
-                    <div class="benefit-icon"><i class="fa-solid fa-bolt-lightning"></i></div>
-                    <h4>Disminución del Dolor Articular</h4>
-                    <p>Acción moduladora sobre la inflamación articular, proporcionando un alivio duradero de las molestias.</p>
+                    <div class="benefit-icon"><i class="fa-solid fa-dna"></i></div>
+                    <h4>100% Autólogo y Seguro</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Al obtenerse de la propia sangre del paciente, no genera rechazo, reacciones alérgicas ni efectos secundarios sistémicos.</p>
                 </div>
                 <div class="benefit-item">
-                    <div class="benefit-icon"><i class="fa-solid fa-person-running"></i></div>
-                    <h4>Recuperación Funcional</h4>
-                    <p>Favorece la cicatrización de tendones y ligamentos en deportistas y pacientes con artrosis.</p>
+                    <div class="benefit-icon"><i class="fa-solid fa-bullseye"></i></div>
+                    <h4>Infiltración Ecoguiada</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Aseguramos la máxima precisión depositando los factores de crecimiento exactamente en la zona exacta de la lesión.</p>
                 </div>
                 <div class="benefit-item">
-                    <div class="benefit-icon"><i class="fa-solid fa-shield-cat"></i></div>
-                    <h4>Tratamiento 100% Autólogo</h4>
-                    <p>Al emplear tu propia sangre, no genera rechazo, reacciones alérgicas ni efectos secundarios sistémicos.</p>
-                </div>
-                <div class="benefit-item">
-                    <div class="benefit-icon"><i class="fa-solid fa-user-shield"></i></div>
-                    <h4>Procedimiento En Consulta</h4>
-                    <p>Se realiza en unos 30-45 minutos. Rápido, seguro e infiltrado bajo guía precisa.</p>
+                    <div class="benefit-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                    <h4>Alivio y Regeneración</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Reduce progresivamente el dolor, frena la inflamación crónica y estimula la síntesis de colágeno en el tejido.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 3. ZONAS DE INFILTRACIÓN CON ILUSTRACIONES 3D MÓDERNAS -->
-    <section id="zonas" class="section-padding" style="background-color: #ffffff;">
+    <!-- ZONAS DE INFILTRACIÓN -->
+    <section id="zonas" class="section-padding">
         <div class="container">
             <div class="text-center">
-                <span class="tag-badge">Zonas de Infiltración</span>
-                <h2 class="section-title">Anatomía y Articulaciones Tratadas</h2>
-                <p class="section-subtitle">Ilustraciones médicas de las zonas más frecuentes de tratamiento mediante infiltraciones de PRP y células madre.</p>
+                <div class="tag-badge">Tratamientos Específicos</div>
+                <h2 class="section-title">Principales Áreas de Infiltración</h2>
+                <p class="section-subtitle">Aplicamos terapias regenerativas ecoguiadas adaptadas a la patología de cada articulación y tendón.</p>
             </div>
 
             <div class="joint-grid">
-                <!-- Rodilla 3D -->
+                <!-- Rodilla -->
                 <div class="joint-card">
                     <div class="joint-img-container">
-                        <img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=600&q=80" alt="Ilustración médica 3D de articulación de rodilla humana">
+                        <!-- Imagen Rodilla -->
+                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=600&q=80" alt="Tratamiento de rodilla y valoración de articulación">
                     </div>
                     <div class="joint-content">
                         <h3>Rodilla</h3>
-                        <p>Articulación con altísima respuesta al tratamiento regenerativo.</p>
+                        <p>Tratamiento regenerativo de primera línea para dolor articular y degenerativo.</p>
                         <ul class="joint-list">
-                            <li>Gonartrosis (Artrosis de rodilla)</li>
-                            <li>Tendinopatía rotuliana / cuadricipital</li>
-                            <li>Lesiones meniscales sintomáticas</li>
-                            <li>Condromalacia patelar</li>
+                            <li>Artrosis de rodilla (Gonartrosis)</li>
+                            <li>Lesiones de menisco y cartílago</li>
+                            <li>Tendinitis rotuliana y cuadricipital</li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- Hombro Doloroso 3D -->
+                <!-- Hombro -->
                 <div class="joint-card">
                     <div class="joint-img-container">
-                        <img src="https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=600&q=80" alt="Ilustración médica 3D de hombro doloroso y manguito rotador">
+                        <!-- Imagen Hombro -->
+                        <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=600&q=80" alt="Infiltración y ecografía de hombro doloroso">
                     </div>
                     <div class="joint-content">
                         <h3>Hombro Doloroso</h3>
-                        <p>Solución biológica para lesiones del manguito rotador.</p>
+                        <p>Restauración de la función articular y disminución de la inflamación tendinosa.</p>
                         <ul class="joint-list">
-                            <li>Tendinitis del supraespinoso</li>
-                            <li>Roturas parciales del manguito</li>
-                            <li>Omartrosis (Artrosis de hombro)</li>
-                            <li>Bursitis subacromial crónica</li>
+                            <li>Tendinitis del manguito rotador</li>
+                            <li>Bursitis subacromial</li>
+                            <li>Lesiones del bíceps y tendinosis</li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- Tendón Inflamado / Tendinopatías 3D -->
+                <!-- Tendinopatías -->
                 <div class="joint-card">
                     <div class="joint-img-container">
-                        <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=600&q=80" alt="Ilustración médica 3D de tendón inflamado y estructura muscular">
+                        <!-- Imagen Tendinopatías (Tobillo/Aquiles) -->
+                        <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=600&q=80" alt="Tratamiento de tendinitis y lesiones tendinosas">
                     </div>
                     <div class="joint-content">
-                        <h3>Tendinopatías Complejas</h3>
-                        <p>Tratamiento de regeneración para tendones sobrecargados.</p>
+                        <h3>Tendinopatías</h3>
+                        <p>Reparación de tendones con degeneración crónica que no responden a tratamiento convencional.</p>
                         <ul class="joint-list">
-                            <li>Epicondilitis (Codo de tenista)</li>
-                            <li>Tendinitis de Aquiles (Aquilodinia)</li>
+                            <li>Tendinitis de Aquiles</li>
                             <li>Fascitis plantar recalcitrante</li>
-                            <li>Trocanteritis (Cadera)</li>
+                            <li>Epicondilitis (Codo de tenista)</li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- Artrosis Rodilla/Cadera 3D -->
+                <!-- Artrosis y Otras Articulaciones -->
                 <div class="joint-card">
                     <div class="joint-img-container">
-                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80" alt="Ilustración médica 3D de rodilla o cadera artrósica degenerada">
+                        <!-- Imagen Artrosis / Articulaciones generales -->
+                        <img src="https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=600&q=80" alt="Evaluación médica articular y de artrosis">
                     </div>
                     <div class="joint-content">
-                        <h3>Artrosis & Otras Articulaciones</h3>
-                        <p>Protección del cartílago y reducción de la fricción articular.</p>
+                        <h3>Artrosis y Otras Zonas</h3>
+                        <p>Control del dolor y desaceleración del desgaste articular estructural.</p>
                         <ul class="joint-list">
-                            <li>Coxartrosis (Artrosis de cadera)</li>
+                            <li>Artrosis de cadera (Coxartrosis)</li>
                             <li>Rizartrosis (Base del pulgar)</li>
-                            <li>Tobillo y articulaciones del pie</li>
-                            <li>Roturas musculares recurrentes</li>
+                            <li>Tobillo, muñeca y pequeñas articulaciones</li>
                         </ul>
                     </div>
                 </div>
@@ -1222,233 +1131,178 @@
         </div>
     </section>
 
-    <!-- 4. CASOS CLÍNICOS SEO -->
-    <section id="casos" class="section-padding cases-section">
+    <!-- CASOS CLÍNICOS -->
+    <section id="casos" class="cases-section section-padding">
         <div class="container">
             <div class="text-center">
-                <span class="tag-badge">Casos Clínicos & Experiencia</span>
-                <h2 class="section-title">Resultados de Tratamiento en Traumatología</h2>
-                <p class="section-subtitle">Ejemplos reales de patologías articulares tratadas mediante protocolos personalizados de medicina regenerativa por el Dr. Hernández Quinto.</p>
+                <div class="tag-badge">Evidencia y Resultados</div>
+                <h2 class="section-title">Casos Clínicos Frecuentes</h2>
+                <p class="section-subtitle">Ejemplos reales de evolución de pacientes tratados mediante protocolo de plasma rico en plaquetas.</p>
             </div>
 
             <div class="cases-grid">
                 <div class="case-card">
-                    <div class="case-badge">Caso Clínico #1 - Rodilla</div>
-                    <h4>Gonartrosis Grado II-III en Paciente Deporte Activo</h4>
-                    <p>Paciente de 54 años con dolor mecánico de rodilla que no cedía con analgésicos. Se realizaron 3 sesiones de infiltración de PRP ecoguiado espaciadas en 2 semanas.</p>
-                    <div class="case-result"><i class="fa-solid fa-circle-check"></i> Reducción del dolor >80% a los 3 meses y retorno a la actividad.</div>
+                    <div class="case-badge">Caso 1 • Artrosis de Rodilla</div>
+                    <h4>Paciente de 58 años con dolor al caminar</h4>
+                    <p>Presentaba limitación funcional severa y dolor persistente de rodilla al bajar escaleras. Tras 3 sesiones de infiltración con PRP ecoguiado, reporta una reducción significativa del dolor.</p>
+                    <div class="case-result"><i class="fa-solid fa-circle-check"></i> Recuperación progresiva de la marcha cotidiana</div>
                 </div>
 
                 <div class="case-card">
-                    <div class="case-badge">Caso Clínico #2 - Hombro</div>
-                    <h4>Tendinopatía Supraespinosa y Bursitis Subacromial</h4>
-                    <p>Deportista con dolor nocturno e limitación para elevar el brazo. Tras infiltración focalizada con PRP sobre el tendón supraespinoso lesionado.</p>
-                    <div class="case-result"><i class="fa-solid fa-circle-check"></i> Cicatrización tendinosa objetivada por ecografía y balance articular completo.</div>
+                    <div class="case-badge">Caso 2 • Manguito Rotador</div>
+                    <h4>Deportista de 42 años con tendinosis crónica</h4>
+                    <p>Dolor nocturno en el hombro e imposibilidad para realizar deportes de raqueta. Se realiza protocolo de infiltración tendinosa sobre la lesión parcial del supraespinoso.</p>
+                    <div class="case-result"><i class="fa-solid fa-circle-check"></i> Retorno progresivo a la actividad deportiva</div>
                 </div>
 
                 <div class="case-card">
-                    <div class="case-badge">Caso Clínico #3 - Tendón</div>
-                    <h4>Epicondilitis Reclacitrante (Codo de Tenista)</h4>
-                    <p>Paciente de 42 años con dolor de 8 meses de evolución resistente a fisioterapia y AINEs. Tratamiento mediante PRP concentrado.</p>
-                    <div class="case-result"><i class="fa-solid fa-circle-check"></i> Remisión total del dolor al presionar y sujeción de fuerza preservada.</div>
+                    <div class="case-badge">Caso 3 • Tendinitis Aquílea</div>
+                    <h4>Corredor de 35 años sin respuesta a fisioterapia</h4>
+                    <p>Engrosamiento y dolor agudo en el tendón de Aquiles de 6 meses de evolución. Tras infiltración de factores de crecimiento y pauta de carga, remite la sintomatología punzante.</p>
+                    <div class="case-result"><i class="fa-solid fa-circle-check"></i> Regeneración de la estructura tendinosa</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 5. QUÉ ESPERAR Y PAUTAS POST-TRATAMIENTO (ADVERTENCIA AINEs) -->
-    <section id="proceso" class="section-padding process-section">
+    <!-- PROCESO PASO A PASO Y ADVERTENCIA AINEs -->
+    <section class="process-section section-padding">
         <div class="container">
             <div class="text-center">
-                <span class="tag-badge">Transparencia Médica</span>
-                <h2 class="section-title">Qué Esperar del Tratamiento</h2>
-                <p class="section-subtitle">Proceso protocolizado y pautas clave para asegurar la máxima eficacia regenerativa del Plasma Rico en Plaquetas.</p>
+                <div class="tag-badge">Protocolo Seguro</div>
+                <h2 class="section-title">¿Cómo es el Proceso del Tratamiento?</h2>
+                <p class="section-subtitle">Un procedimiento ambulatorio, rápido e indoloro en consulta médica.</p>
             </div>
 
             <div class="timeline">
                 <div class="timeline-step">
                     <div class="step-number">1</div>
-                    <h4>Valoración por el Dr. Hernández Quinto</h4>
-                    <p>Examen clínico y ecográfico minucioso para confirmar si tu lesión es candidata a infiltración con PRP o terapia biológica.</p>
+                    <h4>Extracción Sangre</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Extracción de una pequeña muestra de sangre venosa del brazo, idéntica a una analítica convencional.</p>
                 </div>
+
                 <div class="timeline-step">
                     <div class="step-number">2</div>
-                    <h4>Extracción y Obtención de PRP</h4>
-                    <p>Extracción sanguínea rápida y centrifugado en el propio centro hospitalario bajo estándares estériles de bioseguridad.</p>
+                    <h4>Centrifugado</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Procesado biológico homologado mediante centrifugación para separar los factores de crecimiento plasmáticos.</p>
                 </div>
+
                 <div class="timeline-step">
                     <div class="step-number">3</div>
-                    <h4>Infiltración Precisa</h4>
-                    <p>Infiltración del concentrado de factores de crecimiento directamente en el foco de la lesión o articulación.</p>
+                    <h4>Infiltración Ecoguiada</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Inyección precisa guiada por ecógrafo en el punto exacto de la articulación o tendón afectado.</p>
                 </div>
+
                 <div class="timeline-step">
                     <div class="step-number">4</div>
-                    <h4>Seguimiento y Cuidados</h4>
-                    <p>Pautas de recuperación, reposo relativo durante 24-48h y control ambulatorio de la evolución clínica.</p>
+                    <h4>Recuperación</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">El paciente regresa a su domicilio a pie tras la intervención, siguiendo las pautas post-tratamiento adecuadas.</p>
                 </div>
             </div>
 
-            <!-- ADVERTENCIA OBLIGATORIA AINEs POST-TRATAMIENTO -->
             <div class="warning-box">
                 <i class="fa-solid fa-triangle-exclamation"></i>
                 <div>
-                    <h4>Pauta Post-Tratamiento Fundamental: Restricción de Antiinflamatorios (AINEs)</h4>
-                    <p><strong>IMPORTANTE:</strong> Se prohíbe el consumo de antiinflamatorios no esteroideos (AINEs como Ibuprofeno, Enantyum, Naproxeno o Voltaren) durante <strong>mínimo 2-3 semanas después de la infiltración con PRP</strong>. Los AINEs bloquean la cascada inflamatoria fisiológica que activan las plaquetas para regenerar el tejido, anulando la eficacia del tratamiento.</p>
+                    <h4>Instrucción Importante sobre Antiinflamatorios (AINEs)</h4>
+                    <p>Está estrictamente contraindicado tomar medicamentos antiinflamatorios (Ibuprofeno, Naproxeno, Enantyum, Voltarene...) durante los 7 días previos y los 14 días posteriores a la infiltración con PRP. Los AINEs bloquean la cascada de inflamación reparadora que desencadenan las plaquetas para curar el tejido.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 6. PREGUNTAS FRECUENTES (SEO AMPLIADO PARA BÚSQUEDAS DE CÉLULAS MADRE Y PRP) -->
-    <section id="faq" class="section-padding faq-section">
+    <!-- PREGUNTAS FRECUENTES (SEO AMPLIADO) -->
+    <section id="faq" class="faq-section section-padding">
         <div class="container">
             <div class="text-center">
-                <span class="tag-badge">Resolución de Dudas</span>
-                <h2 class="section-title">Preguntas Frecuentes sobre Infiltraciones</h2>
-                <p class="section-subtitle">Información médica rigurosa sobre Plasma Rico en Plaquetas, Células Madre y Medicina Regenerativa.</p>
+                <div class="tag-badge">Dudas Frecuentes</div>
+                <h2 class="section-title">Preguntas Frecuentes sobre PRP y Células Madre</h2>
+                <p class="section-subtitle">Respuestas médicas a las cuestiones más comunes antes de iniciar tu tratamiento de medicina regenerativa.</p>
             </div>
 
             <div class="faq-grid">
                 <div class="faq-item">
-                    <h4><i class="fa-solid fa-circle-question"></i> ¿Cuál es la diferencia entre infiltraciones de PRP y Células Madre?</h4>
-                    <p>El PRP utiliza los factores de crecimiento de las plaquetas extraídas de tu sangre para acelerar el proceso natural de curación. La terapia de células madre (como la fracción vascular estromal u origen óseo/adiposo) aporta células progenitoras capaces de diferenciarse y reparar tejidos con un potencial modulador aún mayor. Ambas técnicas forman parte de la medicina regenerativa y se indican según el grado de desgaste articular.</p>
+                    <h4><i class="fa-solid fa-circle-question"></i> ¿Es dolorosa la infiltración de Plasma Rico en Plaquetas?</h4>
+                    <p>La molestia es muy leve y similar a una inyección convencional. El procedimiento se realiza en pocos minutos en la propia consulta médica de forma ambulatoria y con agujas de altísima precisión.</p>
                 </div>
 
                 <div class="faq-item">
-                    <h4><i class="fa-solid fa-circle-question"></i> ¿Cuántas sesiones de infiltración con PRP se necesitan?</h4>
-                    <p>Generalmente el protocolo estándar consiste en entre 1 y 3 sesiones espaciadas de 2 a 3 semanas, dependiendo de la articulación afectada (rodilla, hombro, cadera) y de la severidad de la artrosis o tendinopatía.</p>
+                    <h4><i class="fa-solid fa-circle-question"></i> ¿Qué diferencia hay entre infiltraciones con PRP y Células Madre?</h4>
+                    <p>El PRP utiliza factores de crecimiento plaquetarios para acelerar la regeneración tisular y frenar la inflamación. Las células madre son terapias celulares avanzadas capaces de diferenciarse en tejidos específicos. Ambos enfoques forman parte de la medicina regenerativa de vanguardia y el traumatólogo evaluará cuál es el adecuado según el grado de tu lesión.</p>
                 </div>
 
                 <div class="faq-item">
-                    <h4><i class="fa-solid fa-circle-question"></i> ¿Es doloroso el tratamiento de infiltración?</h4>
-                    <p>Las infiltraciones son procedimientos muy bien tolerados. Se utiliza agujas de fino calibre y, en caso necesario, una pequeña cantidad de anestesia local en la piel. El paciente puede experimentar una leve molestia o presión durante la aplicación.</p>
+                    <h4><i class="fa-solid fa-circle-question"></i> ¿Cuántas sesiones de PRP son necesarias para ver resultados?</h4>
+                    <p>Por norma general, el protocolo estándar en patología articular o tendinosa comprende entre 1 y 3 sesiones, espaciadas de 2 a 4 semanas entre sí. La mejoría comienza a apreciarse a partir de la tercera o cuarta semana posterior a la aplicación.</p>
                 </div>
 
                 <div class="faq-item">
-                    <h4><i class="fa-solid fa-circle-question"></i> ¿Puedo trabajar o hacer deporte tras la infiltración de PRP?</h4>
-                    <p>Se recomienda guardar un reposo deportivo relativo de 48 horas. La actividad cotidiana habitual sin esfuerzos intensos se puede mantener desde el primer día.</p>
+                    <h4><i class="fa-solid fa-circle-question"></i> ¿Puedo hacer vida normal o trabajar tras la infiltración de PRP?</h4>
+                    <p>Sí, la reincorporación a la vida cotidiana laboral y paseos suaves es inmediata. Únicamente se recomienda evitar esfuerzos físicos intensos o deportes de impacto con la articulación tratada durante las primeras 48 a 72 horas.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4><i class="fa-solid fa-circle-question"></i> ¿Cuánto tiempo duran los efectos del tratamiento con PRP?</h4>
+                    <p>Al tratarse de una reparación biológica del tejido y no un simple enmascarador sintomático, los beneficios de regeneración y alivio del dolor suelen prolongarse entre 12 y 24 meses, dependiendo del grado inicial de desgaste o lesión del paciente.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4><i class="fa-solid fa-circle-question"></i> ¿Por qué la infiltración con PRP debe ser siempre ecoguiada?</h4>
+                    <p>El control por ecografía permite al traumatólogo visualizar la articulación, bolsa o tendón en tiempo real. Esto garantiza colocar el 100% del plasma exactamente en el punto lesionado, aumentando drásticamente la efectividad frente a inyecciones a ciegas.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4><i class="fa-solid fa-circle-question"></i> ¿Existen contraindicaciones para las infiltraciones de plasma rico en plaquetas?</h4>
+                    <p>Al ser autólogo, las contraindicaciones son mínimas. Está desaconsejado en pacientes con infecciones activas en la zona a tratar, trombopenia severa o trastornos de la coagulación no controlados, y en aquellos con procesos oncológicos activos.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 7. RESEÑAS DE PACIENTES (EN INGLÉS, SIN FOTOS DE PACIENTES + BOTÓN DE RESEÑA) -->
-    <section id="reviews" class="section-padding reviews-section">
-        <div class="container">
-            <div class="text-center">
-                <span class="tag-badge">Patient Testimonials</span>
-                <h2 class="section-title">Patient Reviews & Experiences</h2>
-                <p class="section-subtitle">Read feedback from patients treated by Dr. Javier Hernández Quinto for joint pain and regenerative PRP injections.</p>
-            </div>
-
-            <div class="reviews-grid">
-                <!-- Review 1 -->
-                <div class="review-card">
-                    <div>
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                        </div>
-                        <p class="review-text">"I suffered from severe chronic knee pain due to osteoarthritis. After two PRP injection sessions with Dr. Hernández Quinto at Mesa del Castillo, the pain decreased significantly. I can walk again without discomfort."</p>
-                    </div>
-                    <div class="reviewer-info">
-                        <div class="reviewer-avatar">M.S.</div>
-                        <div class="reviewer-details">
-                            <strong>Michael S.</strong>
-                            <span>Knee PRP Treatment (Murcia)</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Review 2 -->
-                <div class="review-card">
-                    <div>
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                        </div>
-                        <p class="review-text">"Outstanding medical care! Dr. Javier explained the whole rotator cuff PRP process clearly. My shoulder mobility has recovered completely without surgery. Highly recommended orthopedic specialist."</p>
-                    </div>
-                    <div class="reviewer-info">
-                        <div class="reviewer-avatar">D.W.</div>
-                        <div class="reviewer-details">
-                            <strong>David W.</strong>
-                            <span>Shoulder Infiltration (Torrevieja)</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Review 3 -->
-                <div class="review-card">
-                    <div>
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                        </div>
-                        <p class="review-text">"Very professional approach and great facilities at Pilar de la Horadada. The Achilles tendon PRP procedure was quick and practically painless. Fantastic results!"</p>
-                    </div>
-                    <div class="reviewer-info">
-                        <div class="reviewer-avatar">E.B.</div>
-                        <div class="reviewer-details">
-                            <strong>Emma B.</strong>
-                            <span>Tendinopathy Therapy (Pilar de la Horadada)</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Opción para dejar reseña -->
-            <div class="leave-review-container">
-                <h4 style="font-size: 1.25rem; color: var(--primary-color); margin-bottom: 8px;">¿Has sido atendido por el Dr. Hernández Quinto?</h4>
-                <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 20px;">Tu experiencia ayuda a otros pacientes a encontrar soluciones para su dolor articular. Puedes enviarnos tu valoración por WhatsApp o Google.</p>
-                <a href="https://wa.me/34611128321?text=Hola%20Dr.%20Hern%C3%A1ndez%20Quinto,%20me%20gustar%C3%ADa%20dejar%20un%20comentario%20o%20rese%C3%B1a%20sobre%20mi%20tratamiento" target="_blank" class="btn btn-outline" style="font-size: 0.9rem;">
-                    <i class="fa-solid fa-pen-to-square"></i> Dejar una Reseña
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- BANNER FINAL CALL TO ACTION -->
+    <!-- BANNER LLAMADA A LA ACCIÓN -->
     <section class="cta-banner">
         <div class="container">
-            <h2>¿Sufres de dolor articular o una lesión resistente a otros tratamientos?</h2>
-            <p>Consulta directamente tu caso con el Dr. Javier Hernández Quinto en Murcia, Torrevieja o Pilar de la Horadada.</p>
-            <a href="https://wa.me/34611128321?text=Hola%20Dr.%20Hern%C3%A1ndez%20Quinto,%20quisiera%20consultar%20mi%20caso%20m%C3%A9dico%20para%20un%20tratamiento%20con%20PRP" target="_blank" class="btn btn-whatsapp" style="font-size: 1.1rem; padding: 16px 36px;">
-                <i class="fa-brands fa-whatsapp" style="font-size: 1.6rem;"></i> Abrir conversación por WhatsApp (611 128 321)
+            <h2>¿Quieres valorar si el tratamiento con PRP es adecuado para ti?</h2>
+            <p>Consulta tus dudas directamente con el Dr. Javier Hernández Quinto en Murcia, Torrevieja o Pilar de la Horadada.</p>
+            <a href="https://wa.me/34611128321?text=Hola%20Dr.%20Hern%C3%A1ndez%20Quinto,%20deseo%20solicitar%20informaci%C3%B3n%20para%20infiltraci%C3%B3n" target="_blank" class="btn btn-whatsapp" style="font-size: 1.1rem; padding: 16px 36px;">
+                <i class="fa-brands fa-whatsapp" style="font-size: 1.5rem;"></i> Solicitar Cita por WhatsApp
             </a>
         </div>
     </section>
 
-    <!-- FOOTER ACTUALIZADO -->
+    <!-- BOTÓN FLOTANTE PERMANENTE DE WHATSAPP -->
+    <a href="https://wa.me/34611128321?text=Hola%20Dr.%20Hern%C3%A1ndez%20Quinto,%20me%20gustar%C3%ADa%20pedir%20cita%20previa" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span>Pedir Cita WhatsApp</span>
+    </a>
+
+    <!-- FOOTER -->
     <footer>
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
-                    <h4>Dr. Javier Hernández Quinto</h4>
-                    <p><strong>Especialista en Cirugía Ortopédica y Traumatología</strong></p>
-                    <p style="color: var(--accent-color); margin-top: 4px;"><strong>N. Colegiado: 30/3009248</strong></p>
-                    <p style="margin-top: 12px;">Especializado en Traumatología Deportiva, Medicina Regenerativa e Infiltraciones de Plasma Rico en Plaquetas (PRP).</p>
+                    <h4 style="color:#ffffff;"><i class="fa-solid fa-user-doctor" style="color:var(--accent-color);"></i> Dr. Javier Hernández Quinto</h4>
+                    <p>Médico Traumatólogo especialista en Cirugía Ortopédica, Traumatología Deportiva y Medicina Regenerativa. Infiltraciones ecoguiadas de PRP y manejo de la artrosis.</p>
                 </div>
+
                 <div class="footer-col">
-                    <h4>Centros y Hospitales</h4>
-                    <p><i class="fa-solid fa-hospital"></i> Hospital Mesa del Castillo (Murcia)</p>
-                    <p><i class="fa-solid fa-hospital"></i> Clínica Virgen del Pilar (Pilar de la Horadada)</p>
-                    <p><i class="fa-solid fa-hospital"></i> Centro Médico Parque de las Naciones (Torrevieja)</p>
+                    <h4>Ubicaciones de Consulta</h4>
+                    <p>• <strong>Murcia:</strong> Clínica Traumatológica Especializada</p>
+                    <p>• <strong>Torrevieja:</strong> Hospital Quirónsalud Torrevieja</p>
+                    <p>• <strong>Pilar de la Horadada:</strong> Clínica Médica Horadada</p>
                 </div>
+
                 <div class="footer-col">
                     <h4>Contacto Directo</h4>
-                    <p><i class="fa-brands fa-whatsapp" style="color: var(--whatsapp-green);"></i> <strong>WhatsApp:</strong> 611 12 83 21</p>
-                    <p style="margin-top: 10px; font-size: 0.85rem; color: #a0aec0;">Atención médica de consultas y cita previa.</p>
+                    <p><i class="fa-solid fa-phone" style="color:var(--accent-color);"></i> Teléfono / WhatsApp: <strong>611 12 83 21</strong></p>
+                    <p><i class="fa-solid fa-envelope" style="color:var(--accent-color);"></i> Atención e información para cita previa presencial.</p>
                 </div>
             </div>
+
             <div class="footer-bottom">
-                <p>&copy; 2026 Dr. Javier Hernández Quinto (N. Col. 30/3009248). Todos los derechos reservados.</p>
+                <p>&copy; 2026 Dr. Javier Hernández Quinto - Todos los derechos reservados. Traumatología y Medicina Regenerativa en Murcia, Torrevieja y Pilar de la Horadada.</p>
             </div>
         </div>
     </footer>
-
-    <!-- BOTÓN FLOTANTE PERMANENTE DE WHATSAPP -->
-    <a href="https://wa.me/34611128321?text=Hola%20Dr.%20Hern%C3%A1ndez%20Quinto,%20me%20gustar%C3%ADa%20pedir%20cita%20para%20tratamiento%20PRP" class="whatsapp-float" target="_blank" aria-label="Contactar con Dr. Hernández Quinto por WhatsApp">
-        <i class="fa-brands fa-whatsapp"></i>
-        <span>Pedir cita por WhatsApp</span>
-    </a>
 
 </body>
 </html>
