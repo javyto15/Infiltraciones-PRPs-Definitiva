@@ -3,1304 +3,474 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- SEO Meta Tags Ampliados -->
-    <title>Dr. Javier Hernández Quinto | Traumatólogo e Infiltraciones PRP Murcia, Torrevieja y Pilar de la Horadada</title>
-    <meta name="description" content="Dr. Javier Hernández Quinto, Traumatólogo especialista en medicina regenerativa, células madre, infiltraciones de PRP (Plasma Rico en Plaquetas), tratamiento de artrosis y tendinopatías en Murcia, Torrevieja y Pilar de la Horadada.">
-    <meta name="keywords" content="Dr Javier Hernandez Quinto, infiltraciones PRP Murcia, celulas madre traumatologia, plasma rico en plaquetas Torrevieja, medicina regenerativa Pilar de la Horadada, tratamiento artrosis rodilla, manguito rotador hombro, traumatologo deportivo">
-    <meta name="author" content="Dr. Javier Hernández Quinto">
-    <meta name="robots" content="index, follow">
-
-    <!-- Open Graph para Redes Sociales -->
-    <meta property="og:title" content="Dr. Javier Hernández Quinto - Traumatología & Medicina Regenerativa">
-    <meta property="og:description" content="Especialista en Cirugía Ortopédica, Traumatología Deportiva e Infiltraciones con Plasma Rico en Plaquetas (PRP) y Células Madre.">
-    <meta property="og:type" content="website">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <title>Tratamiento PRP y Plasma Rico en Plaquetas | Clínica Traumatología</title>
+    <meta name="description" content="Tratamiento de Plasma Rico en Plaquetas (PRP) para lesiones de rodilla, hombro, tendinopatías y artrosis. Pide tu cita en Murcia, Torrevieja o Pilar de la Horadada.">
     
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- FontAwesome para el icono oficial de WhatsApp y UI -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <style>
-        /* ==========================================================================
-           1. VARIABLES CSS Y CONFIGURACIÓN BASE
-           ========================================================================== */
         :root {
-            --primary-color: #0b3c5d;      /* Azul médico profundo */
-            --primary-light: #1d5f8a;      /* Azul medio */
-            --accent-color: #00a896;       /* Verde turquesa regenerativo */
-            --accent-hover: #028090;       /* Verde oscuro hover */
-            --whatsapp-green: #25d366;     /* Verde Oficial WhatsApp */
-            --whatsapp-dark: #128c7e;      /* Verde WhatsApp Hover */
-            --text-main: #2b2d42;          /* Texto principal legible */
-            --text-muted: #5c677d;          /* Texto secundario */
-            --bg-light: #f8fafc;           /* Fondo gris/azul ultra suave */
-            --bg-card: #ffffff;            /* Fondo tarjetas */
-            --border-color: #e2e8f0;       /* Bordes sutiles */
-            --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
-            --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
-            --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-            --radius-sm: 8px;
-            --radius-md: 16px;
-            --radius-lg: 24px;
-            --font-main: 'Plus Jakarta Sans', sans-serif;
-            --font-title: 'Playfair Display', serif;
+            --primary-color: #0056b3;
+            --primary-dark: #003d80;
+            --secondary-color: #25d366;
+            --secondary-dark: #1da851;
+            --text-color: #333333;
+            --bg-light: #f8f9fa;
+            --white: #ffffff;
+            --shadow: 0 4px 15px rgba(0,0,0,0.1);
+            --border-radius: 12px;
         }
 
         * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-            font-size: 16px;
+            font-family: 'Poppins', sans-serif;
         }
 
         body {
-            font-family: var(--font-main);
-            color: var(--text-main);
-            background-color: var(--bg-light);
+            color: var(--text-color);
+            background-color: #f4f7f6;
             line-height: 1.6;
-            overflow-x: hidden;
-        }
-
-        h1, h2, h3, h4 {
-            color: var(--primary-color);
-            line-height: 1.25;
-        }
-
-        a {
-            text-decoration: none;
-            color: inherit;
-            transition: all 0.3s ease;
-        }
-
-        ul {
-            list-style: none;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
         }
 
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 24px;
+            padding: 0 20px;
         }
 
-        .section-padding {
-            padding: 90px 0;
+        /* Header / Hero */
+        header {
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary-color));
+            color: var(--white);
+            padding: 60px 0 40px;
+            text-align: center;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
         }
 
-        .text-center { text-align: center; }
-
-        .tag-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background-color: rgba(0, 168, 150, 0.1);
-            color: var(--accent-color);
-            padding: 6px 16px;
-            border-radius: 50px;
-            font-size: 0.875rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-bottom: 16px;
-        }
-
-        .section-title {
+        header h1 {
             font-size: 2.5rem;
-            font-weight: 800;
-            margin-bottom: 16px;
+            margin-bottom: 15px;
+            font-weight: 700;
         }
 
-        .section-subtitle {
-            font-size: 1.125rem;
-            color: var(--text-muted);
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
             max-width: 700px;
-            margin: 0 auto 48px auto;
+            margin: 0 auto 25px;
         }
 
-        /* ==========================================================================
-           2. BOTONES Y COMPONENTES REUTILIZABLES
-           ========================================================================== */
-        .btn {
+        /* Call to Action Buttons */
+        .btn-whatsapp {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            gap: 12px;
+            gap: 10px;
+            background-color: var(--secondary-color);
+            color: var(--white);
             padding: 14px 28px;
-            font-size: 1rem;
-            font-weight: 700;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
             border-radius: 50px;
-            cursor: pointer;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            border: none;
-        }
-
-        .btn-whatsapp {
-            background-color: var(--whatsapp-green);
-            color: #ffffff;
-            box-shadow: 0 8px 20px rgba(37, 211, 102, 0.3);
+            box-shadow: var(--shadow);
+            transition: all 0.3s ease;
         }
 
         .btn-whatsapp:hover {
-            background-color: var(--whatsapp-dark);
+            background-color: var(--secondary-dark);
             transform: translateY(-2px);
-            box-shadow: 0 12px 25px rgba(37, 211, 102, 0.4);
-            color: #ffffff;
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+            color: var(--white);
         }
 
-        .btn-primary {
-            background-color: var(--primary-color);
-            color: #ffffff;
-            box-shadow: 0 8px 20px rgba(11, 60, 93, 0.25);
+        .btn-whatsapp i {
+            font-size: 1.4rem;
         }
 
-        .btn-primary:hover {
-            background-color: var(--primary-light);
-            transform: translateY(-2px);
-        }
-
-        .btn-outline {
-            background-color: transparent;
-            border: 2px solid var(--primary-color);
-            color: var(--primary-color);
-        }
-
-        .btn-outline:hover {
-            background-color: var(--primary-color);
-            color: #ffffff;
-        }
-
-        /* ==========================================================================
-           3. HEADER & NAVEGACIÓN
-           ========================================================================== */
-        .navbar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            background-color: rgba(255, 255, 255, 0.96);
-            backdrop-filter: blur(10px);
-            z-index: 1000;
-            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
-            transition: all 0.3s ease;
-        }
-
-        .nav-container {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            height: 80px;
-        }
-
-        .logo {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            font-weight: 800;
-            font-size: 1.25rem;
-            color: var(--primary-color);
-        }
-
-        .logo i {
-            font-size: 1.75rem;
-            color: var(--accent-color);
-        }
-
-        .nav-menu {
-            display: flex;
-            align-items: center;
-            gap: 24px;
-        }
-
-        .nav-link {
-            font-weight: 600;
-            color: var(--text-main);
-            font-size: 0.9rem;
-        }
-
-        .nav-link:hover {
-            color: var(--accent-color);
-        }
-
-        /* ==========================================================================
-           4. HERO SECTION
-           ========================================================================== */
-        .hero {
-            padding: 160px 0 90px 0;
-            background: linear-gradient(135deg, #f0f7f7 0%, #e6f0fa 100%);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .hero-grid {
-            display: flex;
-            align-items: center;
-            gap: 60px;
-        }
-
-        .hero-content {
-            flex: 1;
-        }
-
-        .hero-title {
-            font-size: 3.1rem;
-            font-weight: 800;
-            margin-bottom: 20px;
-            color: var(--primary-color);
-            letter-spacing: -0.5px;
-        }
-
-        .hero-title span {
-            color: var(--accent-color);
-        }
-
-        .hero-subtitle {
-            font-size: 1.15rem;
-            color: var(--text-muted);
-            margin-bottom: 32px;
-            max-width: 580px;
-        }
-
-        .hero-actions {
-            display: flex;
-            gap: 16px;
-            flex-wrap: wrap;
-            margin-bottom: 40px;
-        }
-
-        .hero-features {
-            display: flex;
-            gap: 24px;
-            padding-top: 24px;
-            border-top: 1px solid rgba(0,0,0,0.08);
-        }
-
-        .hero-feature-item {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            font-size: 0.88rem;
-            font-weight: 600;
-            color: var(--primary-color);
-        }
-
-        .hero-feature-item i {
-            color: var(--accent-color);
-            font-size: 1.2rem;
-        }
-
-        .hero-image-wrapper {
-            flex: 1;
-            position: relative;
-        }
-
-        .hero-image-container {
-            position: relative;
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            box-shadow: var(--shadow-lg);
-            background: #ffffff;
-            border: 8px solid #ffffff;
-        }
-
-        .hero-image-container img {
-            width: 100%;
-            height: 520px;
-            object-fit: cover;
-        }
-
-        .hero-badge-floating {
-            position: absolute;
-            bottom: -20px;
-            left: -20px;
-            background: #ffffff;
-            padding: 20px;
-            border-radius: var(--radius-md);
-            box-shadow: var(--shadow-lg);
-            display: flex;
-            align-items: center;
-            gap: 16px;
-            max-width: 270px;
-        }
-
-        .hero-badge-icon {
-            width: 48px;
-            height: 48px;
-            border-radius: 50%;
-            background-color: rgba(0, 168, 150, 0.15);
-            color: var(--accent-color);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-        }
-
-        /* ==========================================================================
-           5. CENTROS MÉDICOS, UBICACIONES Y PRECIOS
-           ========================================================================== */
-        .locations-section {
-            background-color: #ffffff;
-        }
-
-        .location-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 32px;
-        }
-
-        .location-card {
-            background: var(--bg-light);
-            border: 2px solid var(--border-color);
-            border-radius: var(--radius-md);
-            padding: 32px;
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: all 0.3s ease;
-        }
-
-        .location-card.featured {
-            border-color: var(--primary-color);
-            background: #ffffff;
-            box-shadow: var(--shadow-md);
-        }
-
-        .city-tag {
-            font-size: 0.85rem;
-            font-weight: 800;
-            text-transform: uppercase;
-            color: var(--accent-color);
-            letter-spacing: 1px;
-            margin-bottom: 8px;
-        }
-
-        .location-card h3 {
-            font-size: 1.35rem;
-            margin-bottom: 12px;
-        }
-
-        .hospital-name {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            font-weight: 600;
-            color: var(--primary-color);
-            margin-bottom: 20px;
-        }
-
-        .hospital-name i {
-            color: var(--accent-color);
-        }
-
-        .price-box {
-            background: #ffffff;
-            border-radius: var(--radius-sm);
-            padding: 20px;
-            margin: 20px 0;
-            border: 1px dashed var(--primary-light);
+        /* Section Titles */
+        .section-title {
             text-align: center;
-        }
-
-        .featured .price-box {
-            background: var(--bg-light);
-        }
-
-        .price-amount {
-            font-size: 2.25rem;
-            font-weight: 800;
+            font-size: 2rem;
+            margin: 50px 0 30px;
             color: var(--primary-color);
-            line-height: 1;
-            margin-bottom: 4px;
+            position: relative;
         }
 
-        .price-detail {
-            font-size: 0.85rem;
-            color: var(--text-muted);
+        .section-title::after {
+            content: '';
+            width: 60px;
+            height: 4px;
+            background-color: var(--secondary-color);
+            display: block;
+            margin: 8px auto 0;
+            border-radius: 2px;
         }
 
-        /* ==========================================================================
-           6. QUÉ ES EL PRP Y BACTERIOLOGÍA/TUBO
-           ========================================================================== */
-        .prp-info {
-            background-color: var(--bg-light);
-        }
-
-        .prp-flex-layout {
-            display: flex;
-            gap: 40px;
-            align-items: center;
+        /* Services Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
             margin-bottom: 50px;
         }
 
-        .prp-flex-text {
-            flex: 1;
-        }
-
-        .prp-flex-image {
-            flex: 1;
-            border-radius: var(--radius-md);
+        .card {
+            background: var(--white);
+            border-radius: var(--border-radius);
             overflow: hidden;
-            box-shadow: var(--shadow-md);
-            border: 6px solid #ffffff;
+            box-shadow: var(--shadow);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
         }
 
-        .prp-flex-image img {
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
             width: 100%;
-            height: 380px;
+            height: 220px;
             object-fit: cover;
         }
 
-        .benefits-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 24px;
-        }
-
-        .benefit-item {
-            background: #ffffff;
-            padding: 32px;
-            border-radius: var(--radius-md);
-            box-shadow: var(--shadow-sm);
-            border: 1px solid var(--border-color);
-            transition: all 0.3s ease;
-        }
-
-        .benefit-item:hover {
-            transform: translateY(-5px);
-            box-shadow: var(--shadow-md);
-            border-color: var(--accent-color);
-        }
-
-        .benefit-icon {
-            width: 56px;
-            height: 56px;
-            background: rgba(11, 60, 93, 0.05);
-            color: var(--primary-color);
-            border-radius: 12px;
+        .card-content {
+            padding: 25px;
             display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .card-content h3 {
+            font-size: 1.3rem;
+            color: var(--primary-color);
+            margin-bottom: 12px;
+        }
+
+        .card-content p {
+            font-size: 0.95rem;
+            color: #666;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        /* Pricing Section */
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 50px;
+        }
+
+        .price-card {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: var(--shadow);
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .price-card.featured {
+            border-color: var(--primary-color);
+        }
+
+        .price-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+            color: var(--primary-dark);
+        }
+
+        .price-card .location-subtitle {
+            font-size: 0.9rem;
+            color: #777;
+            margin-bottom: 15px;
+        }
+
+        .price-card .price {
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: var(--primary-color);
             margin-bottom: 20px;
         }
 
-        /* ==========================================================================
-           7. SITIOS MÁS FRECUENTES DE INFILTRACIÓN
-           ========================================================================== */
-        .joint-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-            gap: 28px;
+        .price-card .price span {
+            font-size: 1rem;
+            font-weight: 400;
+            color: #666;
         }
 
-        .joint-card {
-            background: #ffffff;
-            border-radius: var(--radius-md);
-            overflow: hidden;
-            box-shadow: var(--shadow-sm);
-            border: 1px solid var(--border-color);
-            transition: all 0.3s ease;
-        }
-
-        .joint-card:hover {
-            transform: translateY(-6px);
-            box-shadow: var(--shadow-lg);
-        }
-
-        .joint-img-container {
-            width: 100%;
-            height: 220px;
-            background-color: #e2e8f0;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .joint-img-container img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.5s ease;
-        }
-
-        .joint-card:hover .joint-img-container img {
-            transform: scale(1.05);
-        }
-
-        .joint-content {
-            padding: 24px;
-        }
-
-        .joint-content h3 {
-            font-size: 1.25rem;
-            margin-bottom: 10px;
-            color: var(--primary-color);
-        }
-
-        .joint-content p {
-            font-size: 0.9rem;
-            color: var(--text-muted);
-            margin-bottom: 14px;
-        }
-
-        .joint-list {
-            padding-left: 18px;
-            font-size: 0.88rem;
-            color: var(--text-main);
-        }
-
-        .joint-list li {
-            margin-bottom: 6px;
-            list-style-type: disc;
-        }
-
-        /* ==========================================================================
-           8. CASOS CLÍNICOS Y RESULTADOS
-           ========================================================================== */
-        .cases-section {
-            background-color: #ffffff;
-        }
-
-        .cases-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 28px;
-        }
-
-        .case-card {
-            background: var(--bg-light);
-            border: 1px solid var(--border-color);
-            border-radius: var(--radius-md);
-            padding: 28px;
-            border-left: 5px solid var(--accent-color);
-        }
-
-        .case-badge {
-            font-size: 0.8rem;
-            font-weight: 700;
-            color: var(--primary-color);
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-bottom: 8px;
-        }
-
-        .case-card h4 {
-            font-size: 1.15rem;
-            margin-bottom: 12px;
-        }
-
-        .case-card p {
-            font-size: 0.92rem;
-            color: var(--text-muted);
-            margin-bottom: 12px;
-        }
-
-        .case-result {
-            font-size: 0.88rem;
-            font-weight: 600;
-            color: var(--accent-color);
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        /* ==========================================================================
-           9. PROCESO PASO A PASO & AINEs
-           ========================================================================== */
-        .process-section {
-            background: linear-gradient(180deg, #ffffff 0%, var(--bg-light) 100%);
-        }
-
-        .timeline {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            gap: 24px;
-            position: relative;
-        }
-
-        .timeline-step {
-            background: #ffffff;
-            padding: 32px 24px;
-            border-radius: var(--radius-md);
-            box-shadow: var(--shadow-sm);
-            border-top: 4px solid var(--accent-color);
-            position: relative;
-        }
-
-        .step-number {
-            width: 40px;
-            height: 40px;
-            background: var(--primary-color);
-            color: #ffffff;
-            font-weight: 800;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 16px;
-        }
-
-        .timeline-step h4 {
-            font-size: 1.15rem;
-            margin-bottom: 12px;
-        }
-
-        .warning-box {
-            margin-top: 40px;
-            background: #fff8f6;
-            border: 2px solid #ff3b30;
-            border-radius: var(--radius-md);
-            padding: 24px 32px;
-            display: flex;
-            align-items: center;
-            gap: 20px;
-        }
-
-        .warning-box i {
-            font-size: 2.2rem;
-            color: #ff3b30;
-        }
-
-        .warning-box h4 {
-            color: #d70000;
-            font-size: 1.1rem;
-            margin-bottom: 4px;
-        }
-
-        .warning-box p {
-            font-size: 0.95rem;
-            color: #4a5568;
-        }
-
-        /* ==========================================================================
-           10. PREGUNTAS FRECUENTES (SEO CÉLULAS MADRE Y PRP)
-           ========================================================================== */
+        /* FAQ Section */
         .faq-section {
-            background-color: #ffffff;
-        }
-
-        .faq-grid {
-            max-width: 900px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
+            background: var(--white);
+            padding: 40px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            margin-bottom: 60px;
         }
 
         .faq-item {
-            background: var(--bg-light);
-            border: 1px solid var(--border-color);
-            border-radius: var(--radius-sm);
-            padding: 24px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
         }
 
-        .faq-item h4 {
+        .faq-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .faq-question {
+            font-weight: 600;
             font-size: 1.1rem;
-            margin-bottom: 10px;
+            color: var(--primary-color);
+            margin-bottom: 8px;
             display: flex;
             align-items: center;
             gap: 10px;
         }
 
-        .faq-item h4 i {
-            color: var(--accent-color);
-        }
-
-        .faq-item p {
+        .faq-answer {
+            color: #555;
             font-size: 0.95rem;
-            color: var(--text-muted);
+            padding-left: 28px;
         }
 
-        /* ==========================================================================
-           11. BANNER INFERIOR Y BOTONES FLOTANTES DE WHATSAPP
-           ========================================================================== */
-        .cta-banner {
-            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
-            color: #ffffff;
-            padding: 60px 0;
-            text-align: center;
-        }
-
-        .cta-banner h2 {
-            color: #ffffff;
-            font-size: 2.25rem;
-            margin-bottom: 16px;
-        }
-
-        .cta-banner p {
-            font-size: 1.1rem;
-            margin-bottom: 32px;
-            opacity: 0.9;
-        }
-
-        /* BOTÓN FLOTANTE PERMANENTE ABAJO DERECHA */
+        /* Floating WhatsApp Button */
         .whatsapp-float {
             position: fixed;
+            width: 60px;
+            height: 60px;
             bottom: 30px;
             right: 30px;
-            background-color: var(--whatsapp-green);
-            color: #ffffff;
+            background-color: var(--secondary-color);
+            color: #FFF;
             border-radius: 50px;
-            padding: 12px 24px 12px 16px;
+            text-align: center;
+            font-size: 32px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+            z-index: 1000;
             display: flex;
             align-items: center;
-            gap: 12px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-            z-index: 9999;
-            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            animation: pulse-green 2s infinite;
-        }
-
-        .whatsapp-float i {
-            font-size: 2rem;
-        }
-
-        .whatsapp-float span {
-            font-weight: 700;
-            font-size: 0.95rem;
-            white-space: nowrap;
+            justify-content: center;
+            text-decoration: none;
+            transition: all 0.3s ease;
         }
 
         .whatsapp-float:hover {
-            background-color: var(--whatsapp-dark);
-            transform: scale(1.05) translateY(-3px);
-            color: #ffffff;
+            background-color: var(--secondary-dark);
+            transform: scale(1.1);
+            color: #FFF;
         }
 
-        @keyframes pulse-green {
-            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
-            70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
-        }
-
-        /* ==========================================================================
-           12. FOOTER
-           ========================================================================== */
+        /* Footer */
         footer {
-            background-color: #071e2e;
-            color: #a0aec0;
-            padding: 60px 0 30px 0;
+            background-color: var(--primary-dark);
+            color: var(--white);
+            text-align: center;
+            padding: 25px 0;
             font-size: 0.9rem;
         }
 
-        .footer-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 40px;
-            margin-bottom: 40px;
-        }
-
-        .footer-col h4 {
-            color: #ffffff;
-            font-size: 1.1rem;
-            margin-bottom: 20px;
-        }
-
-        .footer-col p {
-            line-height: 1.7;
-        }
-
-        .footer-bottom {
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            padding-top: 24px;
-            text-align: center;
-            font-size: 0.85rem;
-        }
-
-        /* ==========================================================================
-           13. RESPONSIVE DESIGN (DISEÑO ADAPTATIVO)
-           ========================================================================== */
-        @media (max-width: 992px) {
-            .hero-grid {
-                flex-direction: column;
-                text-align: center;
-            }
-            .hero-subtitle {
-                margin: 0 auto 32px auto;
-            }
-            .hero-actions {
-                justify-content: center;
-            }
-            .hero-features {
-                justify-content: center;
-            }
-            .prp-flex-layout {
-                flex-direction: column;
-            }
-            .warning-box {
-                flex-direction: column;
-                text-align: center;
-            }
-        }
-
         @media (max-width: 768px) {
-            .nav-menu {
-                display: none;
-            }
-            .hero-title {
-                font-size: 2.2rem;
-            }
-            .section-title {
-                font-size: 1.85rem;
-            }
-            .whatsapp-float span {
-                display: none;
-            }
-            .whatsapp-float {
-                padding: 14px;
-                border-radius: 50%;
-                bottom: 20px;
-                right: 20px;
-            }
-            .whatsapp-float i {
-                font-size: 2.2rem;
-            }
+            header h1 { font-size: 1.8rem; }
+            header p { font-size: 1rem; }
+            .section-title { font-size: 1.6rem; }
+            .faq-section { padding: 20px; }
         }
     </style>
 </head>
 <body>
 
-    <!-- NAVEGACIÓN PRINCIPAL -->
-    <header class="navbar">
-        <div class="container nav-container">
-            <a href="#" class="logo">
-                <i class="fa-solid fa-user-doctor"></i>
-                <span>Dr. Hernández Quinto</span>
-            </a>
-            <nav class="nav-menu">
-                <a href="#centros" class="nav-link">Centros y Precios</a>
-                <a href="#tratamiento" class="nav-link">Tratamiento PRP</a>
-                <a href="#zonas" class="nav-link">Zonas de Infiltración</a>
-                <a href="#casos" class="nav-link">Casos Clínicos</a>
-                <a href="#faq" class="nav-link">Preguntas Frecuentes</a>
-            </nav>
-            <a href="https://wa.me/34611128321?text=Hola%20Dr.%20Hern%C3%A1ndez%20Quinto,%20deseo%20solicitar%20cita%20previa" target="_blank" class="btn btn-whatsapp" style="padding: 10px 20px; font-size: 0.9rem;">
-                <i class="fa-brands fa-whatsapp" style="font-size: 1.2rem;"></i> Pedir Cita
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/34600000000?text=Hola,%20me%20gustaría%20pedir%20información%20sobre%20el%20tratamiento%20de%20PRP" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contacto WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Header / Hero -->
+    <header>
+        <div class="container">
+            <h1>Tratamiento con Plasma Rico en Plaquetas (PRP)</h1>
+            <p>Medicina regenerativa avanzada para acelerar la recuperación de lesiones articulares, musculares y de astrosis sin cirugía.</p>
+            <a href="https://wa.me/34600000000?text=Hola,%20quiero%20solicitar%20una%20cita%20para%20PRP" class="btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-whatsapp"></i> Pedir Cita por WhatsApp
             </a>
         </div>
     </header>
 
-    <!-- HERO SECTION -->
-    <section class="hero">
-        <div class="container hero-grid">
-            <div class="hero-content">
-                <div class="tag-badge">
-                    <i class="fa-solid fa-shield-halved"></i> Medicina Regenerativa y Traumatología
-                </div>
-                <h1 class="hero-title">Recupera tu movilidad y <span>mejora del dolor articular</span> mediante infiltraciones con PRP</h1>
-                <p class="hero-subtitle">Especialista en traumatología deportiva, tratamiento biológico con Plasma Rico en Plaquetas (PRP), terapias de medicina regenerativa y manejo avanzado del dolor articular y artrosis en Murcia, Torrevieja y Pilar de la Horadada.</p>
-                
-                <div class="hero-actions">
-                    <a href="https://wa.me/34611128321?text=Hola%20Dr.%20Hern%C3%A1ndez%20Quinto,%20quisiera%20pedir%20cita%20para%20una%20consulta%20de%20infiltraci%C3%B3n" target="_blank" class="btn btn-whatsapp">
-                        <i class="fa-brands fa-whatsapp" style="font-size: 1.4rem;"></i> Pedir cita por WhatsApp
-                    </a>
-                    <a href="#centros" class="btn btn-outline">Ver Centros y Tarifas</a>
-                </div>
+    <div class="container">
 
-                <div class="hero-features">
-                    <div class="hero-feature-item">
-                        <i class="fa-solid fa-circle-check"></i> Sin Cirugía
-                    </div>
-                    <div class="hero-feature-item">
-                        <i class="fa-solid fa-circle-check"></i> Ecoguiado
-                    </div>
-                    <div class="hero-feature-item">
-                        <i class="fa-solid fa-circle-check"></i> Biológico y Seguro
-                    </div>
-                </div>
-            </div>
-
-            <div class="hero-image-wrapper">
-                <div class="hero-image-container">
-                    <img src="doctor-javier.jpg" alt="Dr. Javier Hernández Quinto - Traumatólogo Especialista en Medicina Regenerativa">
-                </div>
-                <div class="hero-badge-floating">
-                    <div class="hero-badge-icon">
-                        <i class="fa-solid fa-user-doctor"></i>
-                    </div>
-                    <div>
-                        <strong style="display:block; color: var(--primary-color);">Dr. Hernández Quinto</strong>
-                        <span style="font-size: 0.85rem; color: var(--text-muted);">Especialista en Traumatología</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CENTROS MÉDICOS Y UBICACIONES -->
-    <section id="centros" class="locations-section section-padding">
-        <div class="container">
-            <div class="text-center">
-                <div class="tag-badge">Consulta Presencial</div>
-                <h2 class="section-title">Centros Médicos y Tarifas</h2>
-                <p class="section-subtitle">Ofrecemos un servicio de alta calidad médica con precios transparentes en nuestras clínicas de Murcia y la Vega Baja.</p>
-            </div>
-
-            <div class="location-grid">
-                <!-- Murcia -->
-                <div class="location-card featured">
-                    <div>
-                        <div class="city-tag">Murcia Capital</div>
-                        <h3>Clínica Traumatológica Murcia</h3>
-                        <div class="hospital-name">
-                            <i class="fa-solid fa-hospital"></i> Centro Especializado de Traumatología
-                        </div>
-                        <p style="font-size: 0.9rem; color: var(--text-muted);">Atención personalizada con equipamiento ecográfico de última generación para tratamiento de lesiones articulares y musculares.</p>
-                    </div>
-
-                    <div class="price-box">
-                        <div class="price-amount">180€</div>
-                        <div class="price-detail">por sesión de infiltración con PRP</div>
-                    </div>
-
-                    <a href="https://wa.me/34611128321?text=Hola%20Dr.%20Hern%C3%A1ndez%20Quinto,%20deseo%20pedir%20cita%20en%20Murcia" target="_blank" class="btn btn-primary" style="width: 100%;">
-                        Reservar en Murcia
-                    </a>
-                </div>
-
-                <!-- Torrevieja -->
-                <div class="location-card">
-                    <div>
-                        <div class="city-tag">Torrevieja</div>
-                        <h3>Hospital Quirónsalud Torrevieja</h3>
-                        <div class="hospital-name">
-                            <i class="fa-solid fa-hospital"></i> Servicio de Traumatología
-                        </div>
-                        <p style="font-size: 0.9rem; color: var(--text-muted);">Instalaciones hospitalarias de primer nivel con laboratorio propio para procesado óptimo del plasma.</p>
-                    </div>
-
-                    <div class="price-box">
-                        <div class="price-amount">200€</div>
-                        <div class="price-detail">por sesión de infiltración con PRP</div>
-                    </div>
-
-                    <a href="https://wa.me/34611128321?text=Hola%20Dr.%20Hern%C3%A1ndez%20Quinto,%20deseo%20pedir%20cita%20en%20Torrevieja" target="_blank" class="btn btn-outline" style="width: 100%;">
-                        Reservar en Torrevieja
-                    </a>
-                </div>
-
-                <!-- Pilar de la Horadada -->
-                <div class="location-card">
-                    <div>
-                        <div class="city-tag">Pilar de la Horadada</div>
-                        <h3>Clínica Médica Horadada</h3>
-                        <div class="hospital-name">
-                            <i class="fa-solid fa-hospital"></i> Consultas Externas
-                        </div>
-                        <p style="font-size: 0.9rem; color: var(--text-muted);">Atención ágil sin esperas para el tratamiento de patología tendinosa y dolor articular crónico.</p>
-                    </div>
-
-                    <div class="price-box">
-                        <div class="price-amount">180€</div>
-                        <div class="price-detail">por sesión de infiltración con PRP</div>
-                    </div>
-
-                    <a href="https://wa.me/34611128321?text=Hola%20Dr.%20Hern%C3%A1ndez%20Quinto,%20deseo%20pedir%20cita%20en%20Pilar%20de%20la%20Horadada" target="_blank" class="btn btn-outline" style="width: 100%;">
-                        Reservar en Pilar de la Horadada
+        <!-- Sección PRP y Laboratorio -->
+        <h2 class="section-title">El Tratamiento de PRP</h2>
+        <div class="grid">
+            <div class="card" style="grid-column: 1 / -1; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+                <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=800&q=80" alt="Infiltración de PRP y proceso de laboratorio">
+                <div class="card-content">
+                    <h3>¿Qué es el Plasma Rico en Plaquetas?</h3>
+                    <p>El PRP es un tratamiento autólogo (obtenido del propio paciente) que concentra los factores de crecimiento presentes en la sangre. Tras un proceso rápido de extracción y centrifugado en condiciones estériles, se infiltra en la zona dañada para estimular la regeneración de los tejidos y aliviar el dolor de forma natural.</p>
+                    <a href="https://wa.me/34600000000?text=Hola,%20quiero%20más%20información%20sobre%20el%20tratamiento%20PRP" class="btn-whatsapp" target="_blank" rel="noopener noreferrer" style="align-self: flex-start;">
+                        <i class="fa-brands fa-whatsapp"></i> Consultar sobre PRP
                     </a>
                 </div>
             </div>
         </div>
-    </section>
 
-    <!-- TRATAMIENTO PRP Y BACTERIOLOGÍA -->
-    <section id="tratamiento" class="prp-info section-padding">
-        <div class="container">
-            <div class="prp-flex-layout">
-                <div class="prp-flex-text">
-                    <div class="tag-badge">¿Cómo funciona el PRP?</div>
-                    <h2 class="section-title">Plasma Rico en Plaquetas (PRP) y Células Madre</h2>
-                    <p style="margin-bottom: 20px; color: var(--text-muted);">El Plasma Rico en Plaquetas es una terapia biológica y autóloga (obtenida de la propia sangre del paciente) que concentra los factores de crecimiento encargados de acelerar la reparación y regeneración de los tejidos dañados.</p>
-                    <p style="margin-bottom: 20px; color: var(--text-muted);">Mediante un centrifugado controlado, aislamos la fracción plasmática con mayor densidad de plaquetas e hiperconcentramos los factores biológicos reparadores que, al infiltrarse bajo control ecográfico, estimulan la curación natural del cartílago, tendón o ligamento.</p>
-                </div>
-                <div class="prp-flex-image">
-                    <!-- Imagen 2: Muestra médica biológica clara y profesional -->
-                    <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=800&q=80" alt="Muestra de tubo con Plasma Rico en Plaquetas y preparación médica">
+        <!-- Indicaciones / Aplicaciones Médicas -->
+        <h2 class="section-title">Principales Indicaciones</h2>
+        <div class="grid">
+            
+            <!-- Rodilla -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80" alt="Tratamiento de Rodilla con PRP">
+                <div class="card-content">
+                    <h3>Lesiones de Rodilla</h3>
+                    <p>Eficaz en artrosis de rodilla, condromalacia rotuliana, lesiones de menisco y tendinitis rotuliana. Reduce el dolor y mejora la movilidad articular.</p>
+                    <a href="https://wa.me/34600000000?text=Hola,%20quiero%20cita%20para%20tratar%20mi%20rodilla%20con%20PRP" class="btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-whatsapp"></i> Cita para Rodilla
+                    </a>
                 </div>
             </div>
 
-            <div class="benefits-grid">
-                <div class="benefit-item">
-                    <div class="benefit-icon"><i class="fa-solid fa-dna"></i></div>
-                    <h4>100% Autólogo y Seguro</h4>
-                    <p style="font-size: 0.9rem; color: var(--text-muted);">Al obtenerse de la propia sangre del paciente, no genera rechazo, reacciones alérgicas ni efectos secundarios sistémicos.</p>
-                </div>
-                <div class="benefit-item">
-                    <div class="benefit-icon"><i class="fa-solid fa-bullseye"></i></div>
-                    <h4>Infiltración Ecoguiada</h4>
-                    <p style="font-size: 0.9rem; color: var(--text-muted);">Aseguramos la máxima precisión depositando los factores de crecimiento exactamente en la zona exacta de la lesión.</p>
-                </div>
-                <div class="benefit-item">
-                    <div class="benefit-icon"><i class="fa-solid fa-heart-pulse"></i></div>
-                    <h4>Alivio y Regeneración</h4>
-                    <p style="font-size: 0.9rem; color: var(--text-muted);">Reduce progresivamente el dolor, frena la inflamación crónica y estimula la síntesis de colágeno en el tejido.</p>
+            <!-- Hombro Doloroso -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=600&q=80" alt="Tratamiento de Hombro Doloroso con PRP">
+                <div class="card-content">
+                    <h3>Hombro Doloroso</h3>
+                    <p>Indicado para lesiones del manguito de los rotadores, tendinitis supraespinoso y bursitis. Ayuda a restaurar la función del hombro sin recurrir a fármacos invasivos.</p>
+                    <a href="https://wa.me/34600000000?text=Hola,%20quiero%20cita%20para%20tratar%20mi%20hombro%20con%20PRP" class="btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-whatsapp"></i> Cita para Hombro
+                    </a>
                 </div>
             </div>
+
+            <!-- Tendinopatías -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=600&q=80" alt="Tratamiento de Tendinopatías con PRP">
+                <div class="card-content">
+                    <h3>Tendinopatías Crónicas</h3>
+                    <p>Tratamiento de elección para tendinitis de Aquiles, epicondilitis (codo de tenista/golfista) y fascitis plantar persistente.</p>
+                    <a href="https://wa.me/34600000000?text=Hola,%20quiero%20cita%20para%20tratar%20tendinopatía%20con%20PRP" class="btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-whatsapp"></i> Cita para Tendinitis
+                    </a>
+                </div>
+            </div>
+
+            <!-- Artrosis y Otras Zonas -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=600&q=80" alt="Tratamiento de Artrosis y Otras Zonas">
+                <div class="card-content">
+                    <h3>Artrosis y Otras Zonas</h3>
+                    <p>Aplicable en desgaste articular de cadera, tobillo y pequeñas articulaciones. Retrasa la necesidad de prótesis quirúrgicas y combate la inflamación.</p>
+                    <a href="https://wa.me/34600000000?text=Hola,%20quiero%20información%20sobre%20PRP%20para%20artrosis" class="btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-whatsapp"></i> Consultar Otras Zonas
+                    </a>
+                </div>
+            </div>
+
         </div>
-    </section>
 
-    <!-- ZONAS DE INFILTRACIÓN -->
-    <section id="zonas" class="section-padding">
-        <div class="container">
-            <div class="text-center">
-                <div class="tag-badge">Tratamientos Específicos</div>
-                <h2 class="section-title">Principales Áreas de Infiltración</h2>
-                <p class="section-subtitle">Aplicamos terapias regenerativas ecoguiadas adaptadas a la patología de cada articulación y tendón.</p>
+        <!-- Precios Exactos -->
+        <h2 class="section-title">Tarifas del Tratamiento</h2>
+        <div class="pricing-grid">
+            
+            <!-- Mesa del Castillo (Murcia) -->
+            <div class="price-card featured">
+                <h3>Hospital Mesa del Castillo</h3>
+                <p class="location-subtitle">Murcia</p>
+                <div class="price">350€ <span>/ sesión</span></div>
+                <p style="font-size:0.85rem; color:#666; margin-bottom:20px;">Incluye extracción, centrafugado, preparación en quirófano/sala e infiltración ecoguiada.</p>
+                <a href="https://wa.me/34600000000?text=Hola,%20quiero%20pedir%20cita%20de%20PRP%20en%20Mesa%20del%20Castillo%20(350€)" class="btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i> Reservar en Murcia
+                </a>
             </div>
 
-            <div class="joint-grid">
-                <!-- Rodilla -->
-                <div class="joint-card">
-                    <div class="joint-img-container">
-                        <!-- Imagen Rodilla -->
-                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=600&q=80" alt="Tratamiento de rodilla y valoración de articulación">
-                    </div>
-                    <div class="joint-content">
-                        <h3>Rodilla</h3>
-                        <p>Tratamiento regenerativo de primera línea para dolor articular y degenerativo.</p>
-                        <ul class="joint-list">
-                            <li>Artrosis de rodilla (Gonartrosis)</li>
-                            <li>Lesiones de menisco y cartílago</li>
-                            <li>Tendinitis rotuliana y cuadricipital</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Hombro -->
-                <div class="joint-card">
-                    <div class="joint-img-container">
-                        <!-- Imagen Hombro -->
-                        <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=600&q=80" alt="Infiltración y ecografía de hombro doloroso">
-                    </div>
-                    <div class="joint-content">
-                        <h3>Hombro Doloroso</h3>
-                        <p>Restauración de la función articular y disminución de la inflamación tendinosa.</p>
-                        <ul class="joint-list">
-                            <li>Tendinitis del manguito rotador</li>
-                            <li>Bursitis subacromial</li>
-                            <li>Lesiones del bíceps y tendinosis</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Tendinopatías -->
-                <div class="joint-card">
-                    <div class="joint-img-container">
-                        <!-- Imagen Tendinopatías (Tobillo/Aquiles) -->
-                        <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=600&q=80" alt="Tratamiento de tendinitis y lesiones tendinosas">
-                    </div>
-                    <div class="joint-content">
-                        <h3>Tendinopatías</h3>
-                        <p>Reparación de tendones con degeneración crónica que no responden a tratamiento convencional.</p>
-                        <ul class="joint-list">
-                            <li>Tendinitis de Aquiles</li>
-                            <li>Fascitis plantar recalcitrante</li>
-                            <li>Epicondilitis (Codo de tenista)</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Artrosis y Otras Articulaciones -->
-                <div class="joint-card">
-                    <div class="joint-img-container">
-                        <!-- Imagen Artrosis / Articulaciones generales -->
-                        <img src="https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=600&q=80" alt="Evaluación médica articular y de artrosis">
-                    </div>
-                    <div class="joint-content">
-                        <h3>Artrosis y Otras Zonas</h3>
-                        <p>Control del dolor y desaceleración del desgaste articular estructural.</p>
-                        <ul class="joint-list">
-                            <li>Artrosis de cadera (Coxartrosis)</li>
-                            <li>Rizartrosis (Base del pulgar)</li>
-                            <li>Tobillo, muñeca y pequeñas articulaciones</li>
-                        </ul>
-                    </div>
-                </div>
+            <!-- Torrevieja -->
+            <div class="price-card">
+                <h3>Clínica Torrevieja</h3>
+                <p class="location-subtitle">Torrevieja</p>
+                <div class="price">250€ <span>/ sesión</span></div>
+                <p style="font-size:0.85rem; color:#666; margin-bottom:20px;">Incluye extracción, filtrado de plasma e infiltración por médico especialista.</p>
+                <a href="https://wa.me/34600000000?text=Hola,%20quiero%20pedir%20cita%20de%20PRP%20en%20Torrevieja%20(250€)" class="btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i> Reservar en Torrevieja
+                </a>
             </div>
+
+            <!-- Pilar de la Horadada -->
+            <div class="price-card">
+                <h3>Clínica Pilar de la Horadada</h3>
+                <p class="location-subtitle">Pilar de la Horadada</p>
+                <div class="price">250€ <span>/ sesión</span></div>
+                <p style="font-size:0.85rem; color:#666; margin-bottom:20px;">Incluye extracción, filtrado de plasma e infiltración por médico especialista.</p>
+                <a href="https://wa.me/34600000000?text=Hola,%20quiero%20pedir%20cita%20de%20PRP%20en%20Pilar%20de%20la%20Horadada%20(250€)" class="btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i> Reservar en Pilar
+                </a>
+            </div>
+
         </div>
-    </section>
 
-    <!-- CASOS CLÍNICOS -->
-    <section id="casos" class="cases-section section-padding">
-        <div class="container">
-            <div class="text-center">
-                <div class="tag-badge">Evidencia y Resultados</div>
-                <h2 class="section-title">Casos Clínicos Frecuentes</h2>
-                <p class="section-subtitle">Ejemplos reales de evolución de pacientes tratados mediante protocolo de plasma rico en plaquetas.</p>
-            </div>
-
-            <div class="cases-grid">
-                <div class="case-card">
-                    <div class="case-badge">Caso 1 • Artrosis de Rodilla</div>
-                    <h4>Paciente de 58 años con dolor al caminar</h4>
-                    <p>Presentaba limitación funcional severa y dolor persistente de rodilla al bajar escaleras. Tras 3 sesiones de infiltración con PRP ecoguiado, reporta una reducción significativa del dolor.</p>
-                    <div class="case-result"><i class="fa-solid fa-circle-check"></i> Recuperación progresiva de la marcha cotidiana</div>
+        <!-- FAQ SEO sobre Células Madre y PRP -->
+        <div class="faq-section">
+            <h2 class="section-title" style="margin-top:0;">Preguntas Frecuentes (FAQs)</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <i class="fa-solid fa-circle-question"></i>
+                    ¿Cuál es la diferencia entre el Plasma Rico en Plaquetas (PRP) y las Células Madre?
                 </div>
-
-                <div class="case-card">
-                    <div class="case-badge">Caso 2 • Manguito Rotador</div>
-                    <h4>Deportista de 42 años con tendinosis crónica</h4>
-                    <p>Dolor nocturno en el hombro e imposibilidad para realizar deportes de raqueta. Se realiza protocolo de infiltración tendinosa sobre la lesión parcial del supraespinoso.</p>
-                    <div class="case-result"><i class="fa-solid fa-circle-check"></i> Retorno progresivo a la actividad deportiva</div>
-                </div>
-
-                <div class="case-card">
-                    <div class="case-badge">Caso 3 • Tendinitis Aquílea</div>
-                    <h4>Corredor de 35 años sin respuesta a fisioterapia</h4>
-                    <p>Engrosamiento y dolor agudo en el tendón de Aquiles de 6 meses de evolución. Tras infiltración de factores de crecimiento y pauta de carga, remite la sintomatología punzante.</p>
-                    <div class="case-result"><i class="fa-solid fa-circle-check"></i> Regeneración de la estructura tendinosa</div>
+                <div class="faq-answer">
+                    El PRP se obtiene de la sangre periférica y contiene factores de crecimiento que estimulan la curación y reducen la inflamación. Las células madre se obtienen habitualmente del tejido adiposo (grasa) o médula ósea y poseen la capacidad de transformarse en diferentes tipos de tejidos. El PRP suele ser el tratamiento de primera línea por su sencillez y eficacia.
                 </div>
             </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <i class="fa-solid fa-circle-question"></i>
+                    ¿Cuántas sesiones de PRP se necesitan habitualmente?
+                </div>
+                <div class="faq-answer">
+                    El protocolo estándar suele constar de entre 1 y 3 sesiones, espaciadas de 2 a 4 semanas según la gravedad de la lesión y la articulación afectada. El traumatólogo evaluará tu caso de forma individualizada.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <i class="fa-solid fa-circle-question"></i>
+                    ¿Es dolorosa la infiltración de PRP?
+                </div>
+                <div class="faq-answer">
+                    Es un procedimiento ambulatorio muy bien tolerado. Se realiza con agujas muy finas y, en caso necesario, se puede aplicar anestesia local previa para minimizar cualquier molestia.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <i class="fa-solid fa-circle-question"></i>
+                    ¿Puedo hacer vida normal tras la aplicación de PRP?
+                </div>
+                <div class="faq-answer">
+                    Sí, pero se recomienda guardar reposo relativo de la actividad deportiva o esfuerzos intensos durante las primeras 24 a 48 horas posteriores a la infiltración.
+                </div>
+            </div>
+
         </div>
-    </section>
 
-    <!-- PROCESO PASO A PASO Y ADVERTENCIA AINEs -->
-    <section class="process-section section-padding">
-        <div class="container">
-            <div class="text-center">
-                <div class="tag-badge">Protocolo Seguro</div>
-                <h2 class="section-title">¿Cómo es el Proceso del Tratamiento?</h2>
-                <p class="section-subtitle">Un procedimiento ambulatorio, rápido e indoloro en consulta médica.</p>
-            </div>
+    </div>
 
-            <div class="timeline">
-                <div class="timeline-step">
-                    <div class="step-number">1</div>
-                    <h4>Extracción Sangre</h4>
-                    <p style="font-size: 0.9rem; color: var(--text-muted);">Extracción de una pequeña muestra de sangre venosa del brazo, idéntica a una analítica convencional.</p>
-                </div>
-
-                <div class="timeline-step">
-                    <div class="step-number">2</div>
-                    <h4>Centrifugado</h4>
-                    <p style="font-size: 0.9rem; color: var(--text-muted);">Procesado biológico homologado mediante centrifugación para separar los factores de crecimiento plasmáticos.</p>
-                </div>
-
-                <div class="timeline-step">
-                    <div class="step-number">3</div>
-                    <h4>Infiltración Ecoguiada</h4>
-                    <p style="font-size: 0.9rem; color: var(--text-muted);">Inyección precisa guiada por ecógrafo en el punto exacto de la articulación o tendón afectado.</p>
-                </div>
-
-                <div class="timeline-step">
-                    <div class="step-number">4</div>
-                    <h4>Recuperación</h4>
-                    <p style="font-size: 0.9rem; color: var(--text-muted);">El paciente regresa a su domicilio a pie tras la intervención, siguiendo las pautas post-tratamiento adecuadas.</p>
-                </div>
-            </div>
-
-            <div class="warning-box">
-                <i class="fa-solid fa-triangle-exclamation"></i>
-                <div>
-                    <h4>Instrucción Importante sobre Antiinflamatorios (AINEs)</h4>
-                    <p>Está estrictamente contraindicado tomar medicamentos antiinflamatorios (Ibuprofeno, Naproxeno, Enantyum, Voltarene...) durante los 7 días previos y los 14 días posteriores a la infiltración con PRP. Los AINEs bloquean la cascada de inflamación reparadora que desencadenan las plaquetas para curar el tejido.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- PREGUNTAS FRECUENTES (SEO AMPLIADO) -->
-    <section id="faq" class="faq-section section-padding">
-        <div class="container">
-            <div class="text-center">
-                <div class="tag-badge">Dudas Frecuentes</div>
-                <h2 class="section-title">Preguntas Frecuentes sobre PRP y Células Madre</h2>
-                <p class="section-subtitle">Respuestas médicas a las cuestiones más comunes antes de iniciar tu tratamiento de medicina regenerativa.</p>
-            </div>
-
-            <div class="faq-grid">
-                <div class="faq-item">
-                    <h4><i class="fa-solid fa-circle-question"></i> ¿Es dolorosa la infiltración de Plasma Rico en Plaquetas?</h4>
-                    <p>La molestia es muy leve y similar a una inyección convencional. El procedimiento se realiza en pocos minutos en la propia consulta médica de forma ambulatoria y con agujas de altísima precisión.</p>
-                </div>
-
-                <div class="faq-item">
-                    <h4><i class="fa-solid fa-circle-question"></i> ¿Qué diferencia hay entre infiltraciones con PRP y Células Madre?</h4>
-                    <p>El PRP utiliza factores de crecimiento plaquetarios para acelerar la regeneración tisular y frenar la inflamación. Las células madre son terapias celulares avanzadas capaces de diferenciarse en tejidos específicos. Ambos enfoques forman parte de la medicina regenerativa de vanguardia y el traumatólogo evaluará cuál es el adecuado según el grado de tu lesión.</p>
-                </div>
-
-                <div class="faq-item">
-                    <h4><i class="fa-solid fa-circle-question"></i> ¿Cuántas sesiones de PRP son necesarias para ver resultados?</h4>
-                    <p>Por norma general, el protocolo estándar en patología articular o tendinosa comprende entre 1 y 3 sesiones, espaciadas de 2 a 4 semanas entre sí. La mejoría comienza a apreciarse a partir de la tercera o cuarta semana posterior a la aplicación.</p>
-                </div>
-
-                <div class="faq-item">
-                    <h4><i class="fa-solid fa-circle-question"></i> ¿Puedo hacer vida normal o trabajar tras la infiltración de PRP?</h4>
-                    <p>Sí, la reincorporación a la vida cotidiana laboral y paseos suaves es inmediata. Únicamente se recomienda evitar esfuerzos físicos intensos o deportes de impacto con la articulación tratada durante las primeras 48 a 72 horas.</p>
-                </div>
-
-                <div class="faq-item">
-                    <h4><i class="fa-solid fa-circle-question"></i> ¿Cuánto tiempo duran los efectos del tratamiento con PRP?</h4>
-                    <p>Al tratarse de una reparación biológica del tejido y no un simple enmascarador sintomático, los beneficios de regeneración y alivio del dolor suelen prolongarse entre 12 y 24 meses, dependiendo del grado inicial de desgaste o lesión del paciente.</p>
-                </div>
-
-                <div class="faq-item">
-                    <h4><i class="fa-solid fa-circle-question"></i> ¿Por qué la infiltración con PRP debe ser siempre ecoguiada?</h4>
-                    <p>El control por ecografía permite al traumatólogo visualizar la articulación, bolsa o tendón en tiempo real. Esto garantiza colocar el 100% del plasma exactamente en el punto lesionado, aumentando drásticamente la efectividad frente a inyecciones a ciegas.</p>
-                </div>
-
-                <div class="faq-item">
-                    <h4><i class="fa-solid fa-circle-question"></i> ¿Existen contraindicaciones para las infiltraciones de plasma rico en plaquetas?</h4>
-                    <p>Al ser autólogo, las contraindicaciones son mínimas. Está desaconsejado en pacientes con infecciones activas en la zona a tratar, trombopenia severa o trastornos de la coagulación no controlados, y en aquellos con procesos oncológicos activos.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- BANNER LLAMADA A LA ACCIÓN -->
-    <section class="cta-banner">
-        <div class="container">
-            <h2>¿Quieres valorar si el tratamiento con PRP es adecuado para ti?</h2>
-            <p>Consulta tus dudas directamente con el Dr. Javier Hernández Quinto en Murcia, Torrevieja o Pilar de la Horadada.</p>
-            <a href="https://wa.me/34611128321?text=Hola%20Dr.%20Hern%C3%A1ndez%20Quinto,%20deseo%20solicitar%20informaci%C3%B3n%20para%20infiltraci%C3%B3n" target="_blank" class="btn btn-whatsapp" style="font-size: 1.1rem; padding: 16px 36px;">
-                <i class="fa-brands fa-whatsapp" style="font-size: 1.5rem;"></i> Solicitar Cita por WhatsApp
-            </a>
-        </div>
-    </section>
-
-    <!-- BOTÓN FLOTANTE PERMANENTE DE WHATSAPP -->
-    <a href="https://wa.me/34611128321?text=Hola%20Dr.%20Hern%C3%A1ndez%20Quinto,%20me%20gustar%C3%ADa%20pedir%20cita%20previa" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
-        <i class="fa-brands fa-whatsapp"></i>
-        <span>Pedir Cita WhatsApp</span>
-    </a>
-
-    <!-- FOOTER -->
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <h4 style="color:#ffffff;"><i class="fa-solid fa-user-doctor" style="color:var(--accent-color);"></i> Dr. Javier Hernández Quinto</h4>
-                    <p>Médico Traumatólogo especialista en Cirugía Ortopédica, Traumatología Deportiva y Medicina Regenerativa. Infiltraciones ecoguiadas de PRP y manejo de la artrosis.</p>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Ubicaciones de Consulta</h4>
-                    <p>• <strong>Murcia:</strong> Clínica Traumatológica Especializada</p>
-                    <p>• <strong>Torrevieja:</strong> Hospital Quirónsalud Torrevieja</p>
-                    <p>• <strong>Pilar de la Horadada:</strong> Clínica Médica Horadada</p>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Contacto Directo</h4>
-                    <p><i class="fa-solid fa-phone" style="color:var(--accent-color);"></i> Teléfono / WhatsApp: <strong>611 12 83 21</strong></p>
-                    <p><i class="fa-solid fa-envelope" style="color:var(--accent-color);"></i> Atención e información para cita previa presencial.</p>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <p>&copy; 2026 Dr. Javier Hernández Quinto - Todos los derechos reservados. Traumatología y Medicina Regenerativa en Murcia, Torrevieja y Pilar de la Horadada.</p>
-            </div>
+            <p>&copy; 2026 Traumatología y Medicina Regenerativa. Todos los derechos reservados.</p>
         </div>
     </footer>
 
